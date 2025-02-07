@@ -544,7 +544,8 @@ footer.active {
     transition: .5s;
 }
 
-.footer-links a:hover {
+.footer-links a:hover, 
+.footer-links a.active {
     color: var(--main-color);
 }
 
